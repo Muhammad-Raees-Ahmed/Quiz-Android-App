@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quiz_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp">
+        <activity android:name=".activity_Html_3"></activity>
+        <activity android:name=".activity_Html_2" />
+        <activity android:name=".activity_Html_1" />
+        <activity android:name=".activity_Html" />
+        <activity android:name=".activity_javascript_3" />
+        <activity android:name=".activity_javascript_2" />
+        <activity android:name=".activity_javascript_1" />
+        <activity android:name=".activity_javascript" />
+        <activity android:name=".activity_java_3" />
+        <activity android:name=".Activity_end" />
+        <activity android:name=".activity_java_2" />
+        <activity android:name=".activity_java_1" />
+        <activity android:name=".activity_java" />
+        <activity android:name=".activity_python_3" />
+        <activity android:name=".activity_python_2" />
+        <activity android:name=".activity_python_1" />
+        <activity android:name=".Activity_python" />
+        <activity
+            android:name=".CategoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
